@@ -26,5 +26,8 @@ There are plenty of tools out there but remember that collecting the metrics is 
 
 One last thing, we cannot understate how important, even crucial, monitoring for servers, services and applications deployment.
 
-
+## Introduction
+Monitoring a Linux system is crucial for maintaining its availability, reliability, and security. 
+System administrators and SOC analysts need to continuously gather information about the state of the systems they manage.
+This document outlines key areas of concern, methods for monitoring, and relevant commands to achieve effective system monitoring.
 

@@ -31,3 +31,36 @@ Monitoring a Linux system is crucial for maintaining its availability, reliabili
 System administrators and SOC analysts need to continuously gather information about the state of the systems they manage.
 This document outlines key areas of concern, methods for monitoring, and relevant commands to achieve effective system monitoring.
 
+## Main Areas of Concern
+* CPU Load: Monitor CPU utilization to ensure optimal performance and detect any spikes or abnormalities.
+* Memory Usage: Track memory usage to prevent system slowdowns or crashes caused by memory exhaustion.
+* Disk Usage: Monitor disk space to prevent storage-related issues and ensure sufficient space for system operation.
+* Network Activity: Monitor network traffic to detect anomalies, potential attacks, or network congestion.
+* Processes: Keep track of running processes to identify resource-intensive applications or unauthorized activities.
+* Security Events: Monitor system logs for security-related events, such as failed login attempts or privilege escalation attempts.
+* Memory Intensive Processes
+* To identify the most memory-intensive processes, use the top command or htop for a more interactive view. These commands provide real-time information about CPU and memory usage, along with a list of running processes sorted by resource consumption.
+
+## Log Files
+Log files are records of events and actions that occur on a system. They provide valuable information for troubleshooting and auditing purposes. Log files are typically located in the /var/log directory on a Linux system. Common log files include syslog, auth.log, messages, and kernel.log.
+
+Last Connected Users and Activity
+To check the last connected users and their activity, use the last command. It displays a list of recent login sessions, including the login time, duration, and source IP address. Additionally, the w command provides information about currently logged-in users and their activities.
+
+## System Health and Performance Metrics
+Key metrics for assessing system health and performance include:
+
+CPU Utilization: Percentage of CPU resources in use.
+Memory Usage: Amount of RAM utilized by processes.
+Disk Space: Available disk space and utilization.
+Network Throughput: Incoming and outgoing network traffic.
+Load Average: Average number of processes waiting for CPU time over a period.
+Uptime of a Machine
+To check the uptime of a machine, use the uptime command. It provides information about how long the system has been running, the current time, number of users, and system load averages.
+
+## Network Traffic Assessment
+To assess network traffic, use tools like iftop or nload. These tools provide real-time monitoring of network interfaces, displaying incoming and outgoing traffic rates, as well as the total amount of data transferred.
+
+## Conclusion
+
+
